@@ -1,0 +1,32 @@
+# Java and Maven
+backend/target/
+**/target/
+
+# SQLite databases and backups
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+backend/backups/
+
+# Session cookies and secrets
+backend/cookies/
+.env
+.env.*
+!.env.example
+
+# Local PDF storage
+storage/
+backend/storage/
+backend/uploads/
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs and IDE files
+*.log
+.vscode/
+.idea/
+Thumbs.db
